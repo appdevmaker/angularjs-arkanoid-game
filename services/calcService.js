@@ -34,7 +34,7 @@
                 }
                 if (keyP == 39) {
                     x += 10;
-                    x = x >= w-50 ? w : x;
+                    x = x >= w-80 ? w-80 : x;
                     btnObj.Right = true;
                 }
             }
